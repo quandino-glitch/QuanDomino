@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anh Xin Lỗi Em Nhé!</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Anh xin lỗi em nhé! 😔</h1>
+        <p>Em ơi, anh biết mình sai rồi. Em là điều tuyệt vời nhất trong cuộc đời anh. Tha thứ cho anh nha? 🥰</p>
+        <button onclick="showMessage()">Tha thứ cho anh nhé!</button>
+        <div id="hidden-message" style="display: none;">
+            <p>Yay! Em tha thứ là anh vui lắm luôn! Yêu em nhiều lắm! ❤️</p>
+        </div>
+        <div class="audio-controls">
+            <button onclick="toggleAudio()">🔊 Bật/Tắt nhạc</button>
+            <p>Nhạc nền: Phố Đã Lên Đèn</p>
+        </div>
+    </div>
+    <canvas id="hearts"></canvas>
+    <audio id="background-music" loop>
+        <source src="pho-da-len-den.mp3" type="audio/mpeg">
+        Trình duyệt của bạn không hỗ trợ phát nhạc.
+    </audio>
+    <script src="script.js"></script>
+</body>
+</html>
