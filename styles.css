@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #FFC1CC, #FF9999);
+    font-family: 'Dancing Script', cursive;
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+}
+
+.container {
+    padding: 20px;
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 3em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+p {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    font-family: 'Dancing Script', cursive;
+    background-color: #FF6666;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#hidden-message {
+    margin-top: 20px;
+}
+
+#hearts {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
